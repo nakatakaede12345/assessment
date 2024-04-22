@@ -1,7 +1,7 @@
 'use strict';
 const userNameInput = document.getElementById('user-name');
 const assessmentButton = document.getElementById('assessment');
-const resultDivition = document.getElementById('result-area');
+const resultDivision = document.getElementById('result-area');
 const tweetDivition = document.getElementById('tweet-area');
 
 assessmentButton.addEventListener(
@@ -14,7 +14,7 @@ assessmentButton.addEventListener(
     }
 
     //TODO 診断結果表示エリアの作成
-    resultDivition.innerText = '';
+    resultDivision.innerText = '';
 
     // headerDivision の作成
     const headerDivision = document.createElement('div');
